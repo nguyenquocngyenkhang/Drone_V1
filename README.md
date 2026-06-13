@@ -5,6 +5,7 @@ Today, I have learned about some of the common frame of fpv drone by the video "
 <img width="1105" height="577" alt="image" src="https://github.com/user-attachments/assets/3b73209f-2dcc-4396-8bfe-53dda90c024c" />
 ## Day 13/06/2026: What is Flight Controller
 Today, I decided to use balance circuit JHEMCU GF30F722-ICM F722 Baro OSD Dual BEC Flight Controller 3-8S as a Flight control method and use 4 ESCs alone. Because it would be much cheaper. But i didnt know exactly what is a FC circuit yet. So i will learn it today.
+Source: https://youtu.be/xSOaeSd1AlM?si=0e5g1HOr8b5ED1UR
 
 #### 1. What it does?
 1. Decode the RC signal
@@ -44,3 +45,19 @@ Three most popular form factor:
 1. Big standard flight controllers 30.5x30.5mm
 2. The mini flight controllers 20x20mm, xoay 45 độ
 3. 25.5x25.5mm
+
+#### 6. Software
+Three most popular software:
+1. Ardupilot -> full-blown navigation (toàn diện)
+2. Betaflight -> racing and freestyle
+3. INAV -> somewhere between
+
+#### 7. Changing software
+There are some microcontrollers that are not compatible with the ardupilot at all. Those are F411s and F722s. These two MCU families will run only on Betaflight and INAV.
+Please remember to note the version of the firmware you used as the firmware may update.
+
+#### 8. Gyros
+The era in good and bad Gyro are gone. So dont spend too much on the correct gyro. Suggested gyro: MPU 6000
+
+#### 9. Tips
+
