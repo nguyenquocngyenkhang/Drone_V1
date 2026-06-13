@@ -60,4 +60,6 @@ Please remember to note the version of the firmware you used as the firmware may
 The era in good and bad Gyro are gone. So dont spend too much on the correct gyro. Suggested gyro: MPU 6000
 
 #### 9. Tips
+1. You will need serial ports
+- With modern FPV systems and radio receivers you will need at least 3 hardware serial ports
 
