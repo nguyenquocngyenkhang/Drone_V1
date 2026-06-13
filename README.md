@@ -37,3 +37,10 @@ Today, I decided to use balance circuit JHEMCU GF30F722-ICM F722 Baro OSD Dual B
 3. airplane oriented
 - Integrated PDB(Power distribution board)
 -> We can use multirotor for airplane and vise versa, but will face some challenges
+
+#### 5. Form Factor(the distance between the mounting holes and the orientation of the flight controller)
+Will it inside your model?
+Three most popular form factor:
+1. Big standard flight controllers 30.5x30.5mm
+2. The mini flight controllers 20x20mm, xoay 45 độ
+3. 25.5x25.5mm
