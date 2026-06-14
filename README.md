@@ -63,3 +63,16 @@ The era in good and bad Gyro are gone. So dont spend too much on the correct gyr
 1. You will need serial ports
 - With modern FPV systems and radio receivers you will need at least 3 hardware serial ports
 
+## Day 14/06/2026: budget estimate and ESC research
+### 1. budget estimate
+### 2. ESC(Electronic speed controller) research
+#### 1. ESC BEC
+The gemnini AI suggest that i shoundn't use the ESC BEC **(Battery Elimination Circuit)**, which are those on yellow or black. They are used to decrease the voltage of the battery down to 5V. But the FC like JHEMCU often have Dual BEC either, so it with would be unnecessary and add more dead weight to a drone. -> How does it work? **Still not know yet**
+<img width="332" height="562" alt="image" src="https://github.com/user-attachments/assets/bd9c3fb1-78a5-4b06-bcee-e3b6546870e2" />
+
+
+#### 2. ESC OPTO
+Unlike the the BEC, which uses electric to control the rotor, OPTO(Optocoupler) uses light sensor and small LED to control the rotor. By converting the signal of the FC into LED light, the sensor then translates that signal to control the rotor. This method prevent EMF noise problem, caused by using the same **common ground**. Some of the common ESC OPTO is BL_HELI_S/32. However, the price is much higher at about 228k VNĐ for each, which is 912k for four. Then the sum of sole FC and 4 ESC would cost around 1.8 Million VNĐ, same as buying the stack -> **May choose stack** 
+<img width="750" height="563" alt="image" src="https://github.com/user-attachments/assets/de1467d7-aa78-414a-90a2-448a0df37b80" />
+
+
