@@ -75,4 +75,13 @@ The gemnini AI suggest that i shoundn't use the ESC BEC **(Battery Elimination C
 Unlike the the BEC, which uses electric to control the rotor, OPTO(Optocoupler) uses light sensor and small LED to control the rotor. By converting the signal of the FC into LED light, the sensor then translates that signal to control the rotor. This method prevent EMF noise problem, caused by using the same **common ground**. Some of the common ESC OPTO is BL_HELI_S/32. However, the price is much higher at about 228k VNĐ for each, which is 912k for four. Then the sum of sole FC and 4 ESC would cost around 1.8 Million VNĐ, same as buying the stack -> **May choose stack** 
 <img width="750" height="563" alt="image" src="https://github.com/user-attachments/assets/de1467d7-aa78-414a-90a2-448a0df37b80" />
 
+## Day 15/06/2026: Motor and Battery
+### 1. Motor
+///
+KV -> express the round per minute for each volt of the motor. For example, for 2300KV motor, at 10V -> we can have 2300*10 = 23000 RPM. The speed of the motor is inversely proportional to the torque(The power to spin)
+///
+Today, I am going to research about motor.
+The Seller told me that the motor and the frame(kit) are related to each other, so I need to choose one of them first. I want to build a long-endurance drone, therefore the drone needs motor that has low KV but high in torque. So they use less electricity but fly more effective. The Gemini suggested that I should use the propeller at 7inch-17.78cm, that would go with 1300KV motor.
+### 2. Battery
+For long-endurance drone, 
 
