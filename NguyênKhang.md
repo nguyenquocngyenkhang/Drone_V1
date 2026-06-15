@@ -82,6 +82,8 @@ KV -> express the round per minute for each volt of the motor. For example, for 
 ///
 Today, I am going to research about motor.
 The Seller told me that the motor and the frame(kit) are related to each other, so I need to choose one of them first. I want to build a long-endurance drone, therefore the drone needs motor that has low KV but high in torque. So they use less electricity but fly more effective. The Gemini suggested that I should use the propeller at 7inch-17.78cm, that would go with 1300KV motor.
+
+**Still not choose a specific motor yet**
 ### 2. Battery
-For long-endurance drone, 
+For long-endurance drone, I can try to make myself a Li-ion battery for much more efficien in mAH and weight than Lipo battery. Let see how its done.
 
