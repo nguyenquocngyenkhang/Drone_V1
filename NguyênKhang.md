@@ -88,5 +88,50 @@ The Seller told me that the motor and the frame(kit) are related to each other, 
 For long-endurance drone, I can try to make myself a Li-ion battery for much more efficien in mAH and weight than Lipo battery. Let see how its done.
 
 ## Day 17/06/2026: DIY Li-ion battery research
+Source: https://nshopvn.com/blog/hieu-ro-ve-pin-18650/
+Source: https://youtu.be/u8EkRS_c3MM?si=HUxGZmVvXutexhbE
+### 1. Intro
+- li-ion NCR18650BW Battery
+**What is 18650 Battery?**
+**Li-ion** -> Lithium-ion
+
+**Dimension:** 18mm x 65 mm, cylinder
+
+**Voltage:** full(3.7-4.2V), low(3V-lower)
+-> With different compination -> different use -> For example, when we connect two 3.7V 18650 li-ion, we get 7.4V in total
+<img width="1009" height="490" alt="image" src="https://github.com/user-attachments/assets/7435e496-cec0-40bd-bec5-33bec898a661" />
+
+**Capacity(mAh):** ex. 2000mAh -> the battery will run out when Discharge 2A in 1H. **How to increase?** -> connect the bat parallel
+<img width="1038" height="507" alt="image" src="https://github.com/user-attachments/assets/a00d2e11-c700-4965-9c1b-12e35ad6f0ad" />
+
+**Discharge current:** We need to use the right Dc for a specific task to avoid the decrease in voltage as U = I*R. The discharge unit is C(1C, 2C, 5C, 10C, 20C …). Ex. 2000mAh battery with 1C can discharge 2000mA at Max or 2000mAh battery with 2C can discharge 4000mA at Max. Li-ion battery usually can only discharge at 2C.
+
+**Internal Resistance:** the lower the IR, the better the battery. BC they minimize the voltage leak when charging. Ex. bat with 500m Ohm IR, 2A discharge rate will decrease the voltage by 1V (2*500*10^(-3) = 1). **How to calculate?:**
+<img width="1047" height="705" alt="image" src="https://github.com/user-attachments/assets/6610233e-313a-40f1-9e47-f8a7e0133492" />
+
+**Charging:** 
+The maximum charging current is the rate at which the battery is charged. The unit is also counted as C. For longevity, the CC doesnt exceed 1C. Ex. 3000mA, charging current = 1*3000mAh = 3000 mA, charging current does not exceed 3A, but to ensure longevity, it should only charge about 70% theoretically. -> if we overcharge -> magic smoke and magic fire will appear:)))
+
+**Discharging Charging Circuit:**
+to prevent **overload and overvoltage** when charging or discharging, the charging circuit is used for balancing the batteries in a block to be charged evenly without the situation that one battery is full but the other is not full.
+
+**Charging Adapter:** too low voltage -> break the adapter, too high voltage -> magic explode. We choose adapter base on the number of battery cells, 4.2*(No. of batteries in series). Ex. 6 batteries in series use 25.2V.
+
+**Protected and unprotected batteries:** 
+A protected battery means that the battery has a built-in protection circuit
+
+This protection circuit has the following uses
+
+- Automatic shut-off when the battery voltage discharges more than the rated voltage
+- Automatically shut off the power when the discharge current exceeds the rated current (usually good currents such as AW have this function)
+- Automatic shut-off when fully charged
+Usually the battery will have the word protection or protected. If it is not written that there is no protection circuit
+
+
+
+
+
+
+
 
 
