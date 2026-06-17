@@ -87,3 +87,6 @@ The Seller told me that the motor and the frame(kit) are related to each other, 
 ### 2. Battery
 For long-endurance drone, I can try to make myself a Li-ion battery for much more efficien in mAH and weight than Lipo battery. Let see how its done.
 
+## Day 17/06/2026: DIY Li-ion battery research
+
+
