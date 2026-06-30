@@ -127,6 +127,14 @@ This protection circuit has the following uses
 - Automatic shut-off when fully charged
 Usually the battery will have the word protection or protected. If it is not written that there is no protection circuit
 
+## Day 30/6/2026 Motors, Propeller
+Source: https://www.dronetechplanet.com/how-a-quadcopter-works-along-with-propellers-and-motors/#How_Quadcopter_Motors_Work
+Well, i realized that to choose which battery configuration should i build, i need to know which motor i will use. Because, in three relative components motors, propeller, and battery, motors are the most expensive. So which criteria will i use to choose motors
+**Criteria:**
+1. Purpose(Long endurance)
+2. Budget
+
+In the first criteria, the motors that used for long flight are those with low KV. from about 960KV -> 1100KV
 
 
 
