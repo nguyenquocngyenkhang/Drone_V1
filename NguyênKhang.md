@@ -138,7 +138,8 @@ In the first criteria, the motors that used for long flight are those with low K
 
 Well, After i read the article, i search for the legend motors DJI and WOW. They are actually cheap and efficient. 200KVND for 800KV, incredible, but the motor are from the phantom 3 kit, so i cant choose other propellers, we need to stick with the 9450 propellers. At least we dont have to worry which one should we use:))).
 
-## Day 31/6/2026: Money
+## Day 31/6/2026: Money and Battery DIY
+battery diy source: https://youtu.be/utK-RdZ2KP8?si=JELLCdwkcFt6SO8X
 Today, i started to create a cost estimate sheet.
 
 
