@@ -104,7 +104,7 @@ Source: https://youtu.be/u8EkRS_c3MM?si=HUxGZmVvXutexhbE
 **Capacity(mAh):** ex. 2000mAh -> the battery will run out when Discharge 2A in 1H. **How to increase?** -> connect the bat parallel
 <img width="1038" height="507" alt="image" src="https://github.com/user-attachments/assets/a00d2e11-c700-4965-9c1b-12e35ad6f0ad" />
 
-**Discharge current:** We need to use the right Dc for a specific task to avoid the decrease in voltage as U = I*R. The discharge unit is C(1C, 2C, 5C, 10C, 20C …). Ex. 2000mAh battery with 1C can discharge 2000mA at Max or 2000mAh battery with 2C can discharge 4000mA at Max. Li-ion battery usually can only discharge at 2C.
+**Discharge current:** We need to use the right Dc for a specific task to avoid the decrease in voltage as U = I*R. The discharge unit is C(1C, 2C, 5C, 10C, 20C …). Ex. 2000mAh battery with 1C can discharge 2000mA at Max or 2000mAh battery with 2C can discharge 4000mA at Max. Li-ion battery usually can only discharge at 2C. To increase the DC, we need to connect parallely. 
 
 **Internal Resistance:** the lower the IR, the better the battery. BC they minimize the voltage leak when charging. Ex. bat with 500m Ohm IR, 2A discharge rate will decrease the voltage by 1V (2*500*10^(-3) = 1). **How to calculate?:**
 <img width="1047" height="705" alt="image" src="https://github.com/user-attachments/assets/6610233e-313a-40f1-9e47-f8a7e0133492" />
